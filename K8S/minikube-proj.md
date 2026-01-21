@@ -23,7 +23,11 @@ sudo reboot
 ```
 
 ```
-eval $(minikube docker-env)
+minikube start --driver=docker
+```
+
+```
+sudo snap install kubectl --classic
 ```
 
 vi Dockerfile
@@ -106,6 +110,7 @@ Test it : `ssh -i "key-name" -L 30000:192.168.49.2:30000 ubuntu@ec2-pub-ip`
 
 
 ------------------------------------------------
+
 
 
 
