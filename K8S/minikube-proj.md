@@ -9,6 +9,10 @@ sudo apt update
 sudo apt install docker.io -y
 ```
 
+```
+curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+```
 
 ```
 eval $(minikube docker-env)
@@ -94,4 +98,5 @@ Test it : `ssh -i "key-name" -L 30000:192.168.49.2:30000 ubuntu@ec2-pub-ip`
 
 
 ------------------------------------------------
+
 
