@@ -12,13 +12,6 @@ Step-by-step guide to installation of Jenkins https://www.jenkins.io/doc/book/in
 Install Java
 
 
-```
-sudo apt update
-sudo apt install fontconfig openjdk-17-jre -y
-java -version
-```
-
-OR
 
 ```
 sudo apt update
@@ -75,6 +68,7 @@ Download Jenkins & Install
 
 
 -----
+
 
 
 
