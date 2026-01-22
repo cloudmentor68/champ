@@ -1,7 +1,7 @@
 ## Install Jenkins
 
 
-Step-by-step guide to install Jenkins on Ubuntu, Mac, and Windows
+Step-by-step guide to installation of Jenkins https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
 
 ### 1. Install Jenkins on Ubuntu (Linux)
 
@@ -15,6 +15,15 @@ Install Java
 ```
 sudo apt update
 sudo apt install fontconfig openjdk-17-jre -y
+java -version
+```
+
+OR
+
+```
+sudo apt update
+sudo apt install fontconfig openjdk-21-jre
+java -version
 ```
 
 
@@ -70,4 +79,5 @@ Download Jenkins & Install
 
 
 -----
+
 
