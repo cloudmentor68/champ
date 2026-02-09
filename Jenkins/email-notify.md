@@ -18,7 +18,7 @@ Go to manage jenkins  --> Credentials  --> add Credentials
 ( Credentials created successfully )
                - 
      
-#### step-4 :- go to manage jenkins  --> system  --> scroll down & go to `Extended E-mail Notification`
+Go to manage jenkins  --> system  --> scroll down & go to `Extended E-mail Notification`
 
   - SMTP server  = smtp.gmail.com
   - SMTP Port  = 465
@@ -42,3 +42,4 @@ Go to manage jenkins  --> Credentials  --> add Credentials
 
 
 -----------------------------------------------------------
+
